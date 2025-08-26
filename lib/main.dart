@@ -34,7 +34,7 @@ class HomeScreen extends StatelessWidget {
                 width: double.infinity,
                 height: 200,
                 child: Image.network(
-                  'https://asset-2.tribunnews.com/wartakota/foto/bank/images/smk-taruna-bhakti-jalan-raya-pekapuran-curug-cimanggis-depok-pada-jumat-3122021.jpg',
+                  'images/tebe.jpg',
                   fit: BoxFit.cover,
                 ),
               ),
@@ -243,18 +243,13 @@ class DetailProduk extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Image.network(
-                  'https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//98/MTA-50454529/asus_laptop_asus_rog_strix_-_g__g513ic_-_r73587g_-o11_9reyzen7-4800h-8gb-512gb-rtx3050-4gb-fhd15-6--wind11-ohs-_full01_r8wdazvr.jpg', // ganti nanti sesuai kebutuhan
-                  width: double.infinity,
-                  height: 200,
+                  'https://static.arenalte.com/uploads/2017/10/Screenshot_20171015-071948_1.jpg',
                   fit: BoxFit.cover,
                 ),
                 const SizedBox(height: 20),
                 const Text(
                   'Detail Produk',
-                  style: TextStyle(
-                    fontSize: 24,
-                    fontWeight: FontWeight.bold,
-                  ),
+                  style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                   textAlign: TextAlign.center,
                 ),
                 const SizedBox(height: 10),
@@ -294,18 +289,11 @@ class ProfilePage extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                const Icon(
-                  Icons.account_circle,
-                  size: 120,
-                  color: Colors.grey,
-                ),
+                const Icon(Icons.account_circle, size: 120, color: Colors.grey),
                 const SizedBox(height: 20),
                 const Text(
                   'Username',
-                  style: TextStyle(
-                    fontSize: 24,
-                    fontWeight: FontWeight.bold,
-                  ),
+                  style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                   textAlign: TextAlign.center,
                 ),
                 const SizedBox(height: 10),
